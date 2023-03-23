@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 class Footer extends React.Component {
     render() {
@@ -7,9 +8,9 @@ class Footer extends React.Component {
                 <ul className="footer-menu">
                     <li><a href="menu.html">Meny</a></li>                
                     <li><a href="contact.html">Kontakta Oss</a></li>
-                    <li><a href="https://eat.orderhero.se/pizzeriasvalan" target="_blank" rel="noopener noreferrer">Beställ</a></li>
-                    <li><a href="https://www.facebook.com/svalanpizza/" target="_blank" rel="noopener norefferer">Facebook</a></li>
-                    <li><a href="credits-page.html">Kreditering av bilder/ikoner</a></li>            
+                    <li><a href="https://eat.orderhero.se/pizzeriasvalan" rel="noreferrer">Beställ</a></li>
+                    <li><a href="https://www.facebook.com/svalanpizza/" rel="norefferer">Facebook</a></li>
+                    <Link to="/Credit">Kreditering av bilder/ikoner</Link>            
                 </ul>
 
                 <p className="footer-opening-hours"><strong>Öppettider</strong><br />

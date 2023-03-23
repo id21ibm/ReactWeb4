@@ -27,15 +27,7 @@ class HomeNews extends React.Component {
                                 <img src={pizzaAthena} alt="Pizza" style={{width: '100%'}} />
                                 <div className="text">Nyhet i menyn: Capricciosa</div>                    
                             </div>
-                            <a className="prev" onclick="plusSlides(-1)">&#10094;</a>                        
-                            <a className="next" onclick="plusSlides(1)">&#10095;</a>
                         </div>
-                            <br/>                    
-                            <div style={{textAlign:'center'}}>
-                                <span className="dot" onclick="currentSlide(1)"></span>
-                                <span className="dot" onclick="currentSlide(2)"></span>
-                                <span className="dot" onclick="currentSlide(3)"></span>
-                            </div>
                     </section>
         );
     }

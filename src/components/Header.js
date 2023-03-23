@@ -1,5 +1,5 @@
 import React from "react";
-import{NavLink, Link} from "react-router-dom";
+import{NavLink} from "react-router-dom";
 
 import homeIcon from "./../images/home-icon-by-ardi.png";
 import menuIcon from "./../images/menu-icon-by-icelloid.png";
